@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background: #f5f0e6;
+    font-family: 'Montserrat', sans-serif;
+    color: #3a4a44;
+    line-height: 1.8;
+}
+
+/* Bannière */
+.banniere {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url('https://images.unsplash.com/photo-1525097487452-6278ff080c31?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.titre-banniere {
+    font-size: 2.8rem;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: rgba(125, 164, 146, 0.8);
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* Contenu */
+.contenu {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px 50px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    color: #7da492;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Informations de contact */
+.infos-contact {
+    margin-top: 40px;
+    background: #f9f7f3;
+    padding: 25px 30px;
+    border-radius: 10px;
+    border: 1px solid #d7e2dd;
+}
+
+.infos-contact h2 {
+    font-family: 'EB Garamond', serif;
+    color: #7da492;
+    margin-top: 0;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #7da492;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contact-button:hover {
+    background: #5d8574;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .contenu {
+        padding: 25px 20px;
+        margin: 20px 15px;
+    }
+
+    .banniere {
+        font-size: 2rem;
+        height: 200px;
+    }
+}

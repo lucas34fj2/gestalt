@@ -1,0 +1,44 @@
+.tarif-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 0;
+  justify-content: center;
+}
+
+.tarif-card {
+  background-color: #f9f5ed;
+  border: 1px solid #e0dcd0;
+  border-radius: 12px;
+  padding: 20px 25px;
+  flex: 1 1 250px;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarif-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tarif-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #7da492;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.tarif-duration {
+  font-size: 1rem;
+  color: #4a5a52;
+  margin-bottom: 8px;
+}
+
+.tarif-price {
+  font-size: 1.6rem;
+  color: #b27d7d;
+  font-weight: 700;
+  margin: 0;
+}
