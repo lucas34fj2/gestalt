@@ -26,7 +26,7 @@ body {
 .hero {
   position: relative;
   height: 400px;
-  background-image: url('https://github.com/lucas34fj2/gestalt/blob/main/fond3.pdf');
+  background-image: url('fond3.pdf');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -270,6 +270,7 @@ footer a:focus {
 .meeting-button:hover {
   background-color: #9f6e6e;
 }
+
 
 
 
