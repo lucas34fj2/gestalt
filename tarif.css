@@ -26,7 +26,7 @@ body {
 .hero {
   position: relative;
   height: 400px;
-  background-image: url('fond3.pdf');
+  background-image: url('fond3.jpeg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -314,5 +314,6 @@ footer a:focus {
   font-weight: 700;
   margin: 0;
 }
+
 
 
